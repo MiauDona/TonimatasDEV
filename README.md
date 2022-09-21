@@ -4,7 +4,7 @@
 
 [![Top langs used](https://github-readme-stats.vercel.app/api/top-langs/?username=TonimatasDEV&show_icons=true&theme=github_dark&title_color=ffffff&border_color=0d1117&card_width=496)](https://discord.com/invite/vWBP4P4Yd8)
 
-![](https://img.shields.io/discord/835899169117175808?color=blue&label=Online&logo=discord&logoColor=blue)
+![][(https://img.shields.io/discord/835899169117175808?color=blue&label=Online&logo=discord&logoColor=blue)](https://discord.com/invite/vWBP4P4Yd8)
 <!--
 **TonimatasMCDEV/TonimatasMCDEV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
