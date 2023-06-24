@@ -50,6 +50,7 @@ body {
 #links a {
     text-decoration: none;
     color: rgb(0, 102, 255);
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -97,6 +98,7 @@ body {
     width: 80%;
     height: 110px;
     margin: 10px auto;
+    transition: 0.8s ease;
 }
 
 .project h1 {
@@ -112,7 +114,6 @@ body {
 
 .project:hover {
     background-color: #686f79;
-    transition: 0.8s ease;
 }
 
 #information {
@@ -145,4 +146,9 @@ body {
 #partners img {
     border: 10px solid #151920;
     border-radius: 12px;
+    transition: 1.5s ease;
+}
+
+#partners img:hover {
+    border-color: white;
 }
