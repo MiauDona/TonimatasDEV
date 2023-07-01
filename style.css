@@ -116,25 +116,25 @@ body {
     background-color: #686f79;
 }
 
-#information {
+.information {
     display: flex;
     color: white;
     align-items: center;
     margin: 0px 300px 0px;
 }
 
-#description {
+.description {
     width: 450px;
     text-align: center;
     overflow-wrap: normal;
     margin: auto;
 }
 
-#logo {
+.logo {
     margin-right: auto;
 }
 
-#logo img {
+.logo img {
     width: 350px;
     height: auto;
 }
