@@ -52,16 +52,37 @@ body {
 }
 
 #links li:hover:after {
-  width: 100%;
+    width: 100%;
 }
 
 ::-webkit-scrollbar {
-  background-color: #333;
+    background-color: #333;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #444;
+    background-color: #444;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #666;
+    background-color: #666;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+div, h1 {
+    view-timeline-name: --animation;
+    view-timeline-axis: block;
+    animation-timeline: --animation;
+    animation-name: show;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
 }
